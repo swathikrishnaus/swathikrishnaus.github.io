@@ -11,14 +11,17 @@
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Poerfolio</title>
+    <link rel="icon" type="image/x-icon" href="images/7294793-removebg-preview.png">
+    <title>Swathikrishna</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container">
           <a class="navbar-brand" href="#"><img src="images/SK.png" alt="" class="img-fluid"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+          <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="toggler-icon top-bar"></span>
+        <span class="toggler-icon middle-bar"></span>
+        <span class="toggler-icon bottom-bar"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
@@ -35,7 +38,7 @@
                 <a class="nav-link" href="#">Projects</a>
               </li>
             </ul>
-              <button class="btn fw-bold btn-sm " type="submit">Get Resume</button>
+              <button class="btn fw-bold btn-sm resume-btn" type="submit">Get Resume</button>
           </div>
         </div>
       </nav>
@@ -50,32 +53,48 @@
             <div class="row">
                 <div class="col-lg-6 col-top">
                     <h3 class="text-white">Hello,</h3>
-                    <h1 class="text-white">I'm, <b class="text-color">Swathikrishna US</b></h1>
+                    <h1 class="text-white d-none d-md-block">I'm, <b class="text-color">Swathikrishna US</b></h1>
+                    <h1 class="text-white d-block d-md-none">I'm, <b class="text-color"><br> Swathikrishna US</b></h1>
                     <p class="para-color">UI/UX Designer & Front End Developer</p>
                     <p class="para-color">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut <br> condimentum lectus eu mauris mattis hendrerit.</p>
 
-                    <div class="d-flex mt-4">
-                        <button class="btn button-style me-3">Get Resume</button>
-                        <button class="btn telegram-btn">Let's Talk<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-telegram ms-2" viewBox="0 0 16 16">
-                            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315.337.337 0 0 0-.114-.217.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z"/>
-                          </svg></button>
+                    <div class="d-flex mt-4 home-buttons">
+                        <button class="btn button-style me-3 btn-sm home-resume-btn">Get Resume</button>
+                        <a href="https://t.me/swathikrishna_us"><button class="btn telegram-btn btn-sm">Let's Talk<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-telegram ms-2" viewBox="0 0 16 16">
+                          <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315.337.337 0 0 0-.114-.217.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z"/>
+                        </svg></button></a>
                     </div>
                     <div class="d-flex social-icons mt-4">
-                        <div class="facebook-icon me-2">
+                        <a href="https://www.facebook.com/profile.php?id=100009595662450&mibextid=ZbWKwL">
+                          <div class="facebook-icon me-2">
                             <i class="fa fa-facebook-f"></i>
-                        </div>
-                        <div class="instagram-icon me-2">
+                          </div>
+                        </a>
+                        <a href="https://www.instagram.com/swathikrishna_us/">
+                          <div class="instagram-icon me-2">
                             <i class="fa fa-instagram"></i>
-                        </div>
-                        <div class="linkedin-icon me-2">
-                            <i class="fa fa-instagram"></i>
-                        </div>
-                        <div class="facebook-icon me-2">
+                          </div>
+                        </a>
+                        <a href="https://www.linkedin.com/in/swathi-krishna-8423401aa">
+                          <div class="linkedin-icon me-2">
                             <i class="fa fa-linkedin"></i>
                         </div>
-                        <div class="github-icon">
+                        </a>
+                        <a href="https://www.behance.net/swathikrishnaus">
+                          <div class="behance-icon me-2">
+                            <i class="fa fa-behance"></i>
+                          </div>
+                        </a>
+                        <a href="https://github.com/swathikrishnaus">
+                          <div class="github-icon me-2">
                             <i class="fa fa-github"></i>
-                        </div>
+                          </div>
+                        </a>
+                        <a href="https://dribbble.com/swathikrishnaus">
+                          <div class="dribbble-icon">
+                            <i class="fa fa-dribbble"></i>
+                          </div>
+                        </a>
                     </div>
 
                 </div>
@@ -102,18 +121,73 @@
       <section class="about">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-lg-6 d-none d-md-block">
                     <img src="images/about.png" alt="" class="img-fluid">
                 </div>
-                <div class="col-lg-6">
-                    <h6 class="text-white">ABOUT</h5>
-                    <h3 class="text-white fw-bold mb-3"><b class="text-color">Let's</b> Introduce <b class="text-color">Myself</b></h3>
+                <div class="col-lg-6 about-contents">
+                  <div class="about-little-head">
+                    <div class="d-flex">
+                      <h6 class="text-white mb-3 ">ABOUT</h5>
+                        <img src="images/small line.png" alt="" class="img-fluid small-line ms-3">
+                    </div>
+                  </div>
+                  <h3 class="text-white fw-bold mb-3"><b class="text-color">Let's</b> Introduce <b class="text-color">Myself</b></h3>
+                  <img src="images/large line.png" alt="" class="img-fluid large-line">
+                  <div class="explain">
                     <p class="para-color">Myself Swathikrisha US, Completed Diploma in Computer Science and Engineering from Government Polytechnic College Kunnamkulam, in July 2018. I also completed Web Design & Web Development course from Blubay IT Solutions and UI/UX design course from Internshala. Currently, Iam working as  UI/UX Designer and Front-End Developer in trickyDot TEchnologies, Puthanathani. I have experience in this field from past year. I’m very interested and happy  to design and develop responsive websites and applications.</p>
                     <p class="para-color">My aspiration to live creativity and meet people’s actual needs when it comes to media consumption. My aim is always to combine a pragmatic approach with aesthetics, while improving communication between people. As a believer in sustainable practices, my thesis focused on developing the brand identity and communication of a clean beauty pop-up store under the umbrella of Selfridges.</p>
+                  </div>
                 </div>
+
+                <div class="col-lg-6 d-block d-md-none">
+                  <img src="images/about.png" alt="" class="img-fluid">
+              </div>
+
+
             </div>
         </div>
       </section>
+
+
+
+    <!-- ------------------------------- about experience start---------------------------------------------- -->
+
+
+    <section class="experience">
+      <div class="container">
+        <div class="row ">
+          <div class="col-lg-4">
+            <div class="projects round-div">
+              <div class="round-div-contents">
+                <h3 class="fw-bold text-white text-center">10+</h3>
+                <p class="para-color text-center">Finished<br>Projects</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="projects round-div">
+              <div class="round-div-contents">
+                <h3 class="fw-bold text-white text-center">10+</h3>
+                <p class="para-color text-center">Happy<br>Customers</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="projects round-div">
+              <div class="round-div-contents">
+                <h3 class="fw-bold text-white text-center margin-imp">1+</h3>
+                <p class="para-color text-center">Experience</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- -------------------------------about experience end---------------------------------------------- -->
 
     <!-- -------------------------------about end---------------------------------------------- -->
 
@@ -123,11 +197,594 @@
 
 
 
+    <!-- -------------------------------services start---------------------------------------------- -->
+
+    <section class="services">
+      <div class="container ">
+        <div class="d-flex service-contents">
+          <h6 class="text-white mb-3 text-center">SERVICES</h5>
+          <img src="images/small line.png" alt="" class="img-fluid small-line ms-3">
+        </div>
+        <h3 class="text-white fw-bold mb-3 text-center"><b class="text-color">Let's</b> Introduce <b class="text-color">Myself</b></h3>
+        <img src="images/large line.png" alt="" class="img-fluid large-line center-underline">
+
+        <p class="para-color text-center mt-4">It’s very happy to share my services with you. </p>
+
+        <div class="row service-card">
+          <div class="col-lg-4 ">
+            <div class="card " style="width: 18rem;">
+              <div class="card-body">
+                <img class="card-img-top" src="images/design.png" alt="Card image cap img-fluid">
+                <h5 class="card-title text-center mt-3 text-white">Design</h5>
+                <p class="card-text text-center para-color">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed sagittis sem. Fusce efficitur condimentum massa vitae facilisis.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="card" style="width: 18rem;">
+              <div class="card-body">
+                <img class="card-img-top" src="images/ui ux.png" alt="Card image cap img-fluid">
+                <h5 class="card-title text-center mt-3 text-white">UI/UX</h5>
+                <p class="card-text text-center para-color">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed sagittis sem. Fusce efficitur condimentum massa vitae facilisis.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="card" style="width: 18rem;">
+              <div class="card-body">
+                <img class="card-img-top" src="images/development.png" alt="Card image cap img-fluid">
+                <h5 class="card-title text-center mt-3 text-white">Development</h5>
+                <p class="card-text text-center para-color">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed sagittis sem. Fusce efficitur condimentum massa vitae facilisis.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- -------------------------------services end---------------------------------------------- -->
 
 
 
 
 
+
+
+
+    <!-- -------------------------------skill start---------------------------------------------- -->
+
+    <section class="skill">
+      <div class="container">
+        <h3 class="text-white fw-bold mb-3 text-center">My <b class="text-color">Skills</b></h3>
+        <img src="images/large line.png" alt="" class="img-fluid large-line center-underline">
+        <p class="para-color mt-4 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas neque ex, lobortis eu ipsum id</p>
+        <img src="images/skill.png" alt="" class="img-fluid skill-img">
+      </div>
+        
+        <div class="soft-skills">
+          <div class="container">
+            <div class="soft-skill-contents">
+              <div class="row row-margin">
+                <div class="col-lg-3 margintop">
+                  <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                      <img src="images/soft-skills/html.png" class="card-img-top img-fluid mt-3" alt="">
+                      <h5 class="card-title text-center fw-bold mt-3">HTML</h5>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="col-lg-3">
+                  <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                      <img src="images/soft-skills/css-3.png" class="card-img-top img-fluid mt-3" alt="">
+                      <h5 class="card-title text-center fw-bold mt-3">CSS</h5>
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="col-lg-3">
+                  <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                      <img src="images/soft-skills/bootstrap.png" class="card-img-top img-fluid mt-3" alt="">
+                      <h5 class="card-title text-center fw-bold mt-3">Bootstrap</h5>
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="col-lg-3">
+                  <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                      <img src="images/soft-skills/java-script (1).png" class="card-img-top img-fluid mt-3" alt="">
+                      <h5 class="card-title text-center fw-bold mt-3">Javascript</h5>
+                    </div>
+                  </div>
+                </div>
+  
+              </div>
+
+
+              <div class="row mt-3">
+                <div class="col-lg-3">
+                  <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                      <img src="images/soft-skills/jquery.png" class="card-img-top img-fluid mt-3" alt="">
+                      <h5 class="card-title text-center fw-bold mt-3">jQuery</h5>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="col-lg-3">
+                  <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                      <img src="images/soft-skills/photoshop.png" class="card-img-top img-fluid mt-3" alt="">
+                      <h5 class="card-title text-center fw-bold mt-3">Adobe<br>Photoshop</h5>
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="col-lg-3">
+                  <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                      <img src="images/soft-skills/figma.png" class="card-img-top img-fluid mt-3" alt="">
+                      <h5 class="card-title text-center fw-bold mt-3">Figma</h5>
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="col-lg-3">
+                  <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                      <img src="images/soft-skills/illustrator.png" class="card-img-top img-fluid mt-3" alt="">
+                      <h5 class="card-title text-center fw-bold mt-3">Adobe<br>Illustrator</h5>
+                    </div>
+                  </div>
+                </div>
+  
+              </div>
+
+
+
+
+            </div>
+          </div>
+        </div>
+
+      
+    </section>
+
+    <!-- -------------------------------skill end---------------------------------------------- -->
+
+
+
+
+
+
+    <!-- -------------------------------resume start---------------------------------------------- -->
+
+    <section class="resume">
+      <div class="container">
+        <h3 class="text-white fw-bold mb-3 text-center">My <b class="text-color">Skills</b></h3>
+        <img src="images/large line.png" alt="" class="img-fluid large-line center-underline">
+        <div class="resume-para">
+          <p class="para-color mt-4  text-center para-width">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas neque ex, lobortis eu ipsum id, euismod hendrerit augue.</p>
+        </div>
+       <div class="row">
+        <div class="col-lg-6">
+          <img src="images/resume.png " alt="" class="img-fluid resume-img">
+        </div>
+        <div class="col-lg-6">
+
+          <div class="timeline ">
+            <ul>
+              <li>
+                <div class="content">
+                  <p class="para-color">Working as UI/UX Designer & Front End Developer in trickyDot Technologies, Puthanathani  </p>
+                </div>
+                <div class="time">
+                  <h5>From <br><b class="text-color">May 2022</b></h5>
+                </div>
+              </li>
+
+              
+
+              <li>
+                <div class="content">
+                  <p class="para-color">Worked as Assistant System Administrator in Royal College of Engineering and Technologies.</p>
+                </div>
+                <div class="time">
+                  <h5><b class="text-color">Oct 2021</b> <br>to<br><b class="text-color">May 2022</b></h5>
+                </div>
+              </li>
+
+
+
+              
+              <li>
+                <div class="content">
+                  <p class="para-color">Completed Web Designing and  Development course from Blue bay Solutions, Calicut. And at the same time of this online course I also Worked as Web Designer and Developer in Bluebay Solutions, Callicur</p>
+                </div>
+                <div class="time">
+                  <h5><b class="text-color">Feb 2021</b> <br>to<br><b class="text-color">Aug 2021</b></h5>
+                </div>
+              </li>
+
+              <li>
+                <div class="content">
+                  <p class="para-color">Worked as HFC Engineer in Saranga Geosoftware and Engineering Services Company.</p>
+                </div>
+                <div class="time">
+                  <h5><b class="text-color">Aug 2018</b> <br>to<br><b class="text-color">Apr 2020</b></h5>
+                </div>
+              </li>
+
+              <li>
+                <div class="content">
+                  <p class="para-color">Completed Diploma in Computer Engineering</p>
+                </div>
+                <div class="time">
+                  <h4 class="fw-bold text-color">May 2022</h4>
+                </div>
+              </li>
+
+              
+
+              <div style="clear:both;"></div>
+            </ul>
+          </div>
+
+
+        </div>
+       </div>
+      </div>
+    </section>
+
+    <!-- -------------------------------resume end---------------------------------------------- -->
+
+
+
+
+
+
+
+    <!-- -------------------------------portfolio start---------------------------------------------- -->
+
+    
+    <section class="portfolio" id="portfolio">
+      <div class="container">
+        <h3 class="text-white fw-bold mb-3 text-center">My <b class="text-color">Projects</b></h3>
+        <img src="images/large line.png" alt="" class="img-fluid large-line center-underline">
+          <div class="portfolio-para">
+            <p class="para-color mt-4  text-center para-width">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas neque ex, lobortis eu ipsum id, euismod hendrerit augue.</p>
+          </div>
+          <div class="portfolio-gallery">
+              <div class="row mt-3 mb-4 button-group filter-button-group">
+                  <div class="col d-flex filter-buttons text-center">
+                      <button type="button" data-filter="*" class="btn btn-primary mx-1  active
+                      ">All</button>
+                      <button type="button" data-filter=".mobile-ui" class="btn btn-primary mx-1 para-color">Mobile UI Design</button>
+                      <button type="button" data-filter=".website-ui" class="btn btn-primary mx-1 para-color">Website UI Design</button>
+                      <button type="button" data-filter=".development" class="btn btn-primary mx-1 para-color">Development</button>
+                  </div>
+              </div>
+  
+              <div class="row justify-content-center g-4" id="portfolio-works">
+                  
+                  <div class="col-lg-4 col-md-6 development bottom mob-top">
+                      <div class="portfolio-item">
+                          <div class="hvrbox">
+                            <p class="text-white">Design and Development of website for an IT Company trickyDot</p>
+                            <div class="content">
+                              <a href="https://trickydot.com/" target="_blank">
+                                <div class="content-overlay"></div>
+                                <img class="content-image" src="images/portfolio/trickydot.png">
+                                <img src="images/large line.png" alt="" class="img-fluid portfolio-underline">
+                                <div class="content-details fadeIn-bottom">
+                                  <h5 class="content-title">Trickydot Technologies</h5>
+                                  <a href="" class="content-text para-color">trickydot.com</a>
+                                  <!-- <p class="content-text">This is a short description</p> -->
+                                </div>
+                              </a>
+                            </div>
+                            </div>
+                      </div>
+                  </div>
+
+
+                  <div class="col-lg-4 col-md-6 mobile-ui  bottom-1">
+                    <div class="portfolio-item">
+                        <div class="hvrbox">
+                          <p class="text-white">UI Design of an E-commerce Mobile Application <br> E-cart</p>
+                          <div class="content">
+                            <a href="#/" target="_blank">
+                              <div class="content-overlay"></div>
+                              <img class="content-image" src="images/portfolio/e commerce mobile.png">
+                              <img src="images/large line.png" alt="" class="img-fluid portfolio-underline">
+                              <div class="content-details fadeIn-bottom">
+                                <h5 class="content-title">E Cart Mobile App</h5>
+                                <a href="https://swathikrishnaus.github.io/boochofoodhub/" class="content-text para-color">Check Design from my Dribbble</a>
+                                <!-- <p class="content-text">This is a short description</p> -->
+                              </div>
+                            </a>
+                          </div>
+                          </div>
+                    </div>
+                </div>
+
+
+  
+                  <div class="col-lg-4 col-md-6 website-ui mt-4">
+                      <div class="portfolio-item">
+                          <div class="hvrbox">
+                            <p class="text-white">UI Design for a Sewing & Embroidery Requisites Trading Najm, Dubai</p>
+                            <div class="content">
+                              <a href="https://trickydot.com/" target="_blank">
+                                <div class="content-overlay"></div>
+                                <img class="content-image" src="images/portfolio/najm.png">
+                                <img src="images/large line.png" alt="" class="img-fluid portfolio-underline">
+                                <div class="content-details fadeIn-bottom">
+                                  <h5 class="content-title">Najm Sewing & Embroidery</h5>
+                                  <a href="" class="content-text para-color">Check Design from my Dribbble</a>
+                                  <!-- <p class="content-text">This is a short description</p> -->
+                                </div>
+                              </a>
+                            </div>
+                            </div>
+                      </div>
+                  </div>
+  
+                  
+              </div>
+          </div>
+      
+
+          
+          <div class="view-all text-center">
+            <a href="#" class="text-color text-center">View All
+              <img src="images/Arrow 2.png" alt="" class="me-2">
+            </a>
+          </div>
+          
+          </div>
+      </div>
+  </section>
+
+
+
+
+    <!-- -------------------------------portfolio end---------------------------------------------- -->
+
+
+
+
+
+    <!-- -------------------------------testimonial start---------------------------------------------- -->
+
+    <section class="testimonial">
+      <div class="container">
+        <div class="d-flex testimonial-contents">
+          <h6 class="text-white mb-3 text-center">TESTIMONIAL</h5>
+          <img src="images/small line.png" alt="" class="img-fluid small-line ms-3">
+        </div>
+          <h3 class="text-white fw-bold mb-3 text-center"><b class="text-color">What</b> People <b class="text-color">Say?</b></h3>
+          <img src="images/large line.png" alt="" class="img-fluid large-line center-underline">
+      </div>
+
+
+      <div class="testimonial-carousel">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="testimonial-background">
+        
+                <div class="row">
+                  <div class="col-lg-2">
+                    <img src="images/testimonial/left-bg.png" alt="" class="img-fluid">
+                  </div>
+                  <div class="col-lg-4 client-img">
+                    <img src="images/testimonial/client.png" alt="" class="img-fluid">
+                  </div>
+                  <div class="col-lg-6 client-review">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-lg-6">
+                          <img src="images/testimonial/quote (1).png" alt="" class="img-fluid quote-img">
+                        </div>
+                        <div class="col-lg-6 client-details">
+                          <h3 class="text-color fw-bold">Hanna Zahrin</h3>
+                          <p class="text-white">Full Stack Developer</p>
+                        </div>
+                      </div>
+
+                      <div class="client-words">
+                        <p class="para-color">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas neque ex, lobortis eu ipsum id, euismod hendrerit augue. Morbi imperdiet, urna eu volutpat euismod, est nibh eleifend sem, at lacinia elit elit et lorem. Phasellus quis nisl libero. Donec condimentum vel nibh ut rutrum. </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="testimonial-background">
+        
+                <div class="row">
+                  <div class="col-lg-2">
+                    <img src="images/testimonial/left-bg.png" alt="" class="img-fluid">
+                  </div>
+                  <div class="col-lg-4 client-img">
+                    <img src="images/testimonial/client.png" alt="" class="img-fluid d-none d-md-block web-img">
+                    <img src="images/testimonial/client.png" alt="" class="img-fluid d-block d-md-none mob-img">
+                  </div>
+                  <div class="col-lg-6 client-review">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-lg-6">
+                          <img src="images/testimonial/quote (1).png" alt="" class="img-fluid quote-img ">
+                        </div>
+                        <div class="col-lg-6 client-details">
+                          <h3 class="text-color fw-bold">Hanna Zahrin</h3>
+                          <p class="text-white">Full Stack Developer</p>
+                        </div>
+                      </div>
+
+                      <div class="client-words">
+                        <p class="para-color">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas neque ex, lobortis eu ipsum id, euismod hendrerit augue. Morbi imperdiet, urna eu volutpat euismod, est nibh eleifend sem, at lacinia elit elit et lorem. Phasellus quis nisl libero. Donec condimentum vel nibh ut rutrum. </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="testimonial-background">
+        
+                <div class="row">
+                  <div class="col-lg-2">
+                    <img src="images/testimonial/left-bg.png" alt="" class="img-fluid">
+                  </div>
+                  <div class="col-lg-4 client-img">
+                    <img src="images/testimonial/client.png" alt="" class="img-fluid">
+                  </div>
+                  <div class="col-lg-6 client-review">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-lg-6">
+                          <img src="images/testimonial/quote (1).png" alt="" class="img-fluid quote-img">
+                        </div>
+                        <div class="col-lg-6 client-details">
+                          <h3 class="text-color fw-bold">Hanna Zahrin</h3>
+                          <p class="text-white">Full Stack Developer</p>
+                        </div>
+                      </div>
+
+                      <div class="client-words">
+                        <p class="para-color">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas neque ex, lobortis eu ipsum id, euismod hendrerit augue. Morbi imperdiet, urna eu volutpat euismod, est nibh eleifend sem, at lacinia elit elit et lorem. Phasellus quis nisl libero. Donec condimentum vel nibh ut rutrum. </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+        
+      
+    </section>
+
+    <!-- -------------------------------testimonial end---------------------------------------------- -->
+
+
+
+
+
+
+
+
+
+
+    <!-- -------------------------------contact start---------------------------------------------- -->
+
+    <section class="contact">
+      <div class="container">
+        <div class="d-flex contact-contents">
+          <h6 class="text-white mb-3 text-center">CONTACT</h5>
+          <img src="images/small line.png" alt="" class="img-fluid small-line ms-3">
+        </div>
+          <h3 class="text-white fw-bold mb-3 text-center"><b class="text-color">Let's</b> Discuss Your <b class="text-color">Project</b></h3>
+          <img src="images/large line.png" alt="" class="img-fluid large-line center-underline">
+        <div class="row">
+          <div class="col-lg-6">
+            <form>
+              <div class="mb-3">
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name" required >
+              </div>
+              <div class="mb-3">
+                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email" required >
+              </div>
+              <div class="mb-3 mt-3">
+                <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Tell about the project" required></textarea>
+              </div>
+              <div class="d-flex">
+                <a href="#" class="text-color fw-bold">Send<img src="images/Arrow 2.png" alt="" class="ms-2"></a>
+              </div>
+            </form>
+          </div>
+          <div class="col-lg-6 ">
+              <img src="images/contact.png" alt="" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- -------------------------------contact end---------------------------------------------- -->
+
+
+
+
+
+    <!-- -------------------------------footer start---------------------------------------------- -->
+
+
+    <section class="footer">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-4">
+            <p class="para-color text-center">© Swathikrishna US 2022/ All Rights Reserved</p>
+          </div>
+          <div class="col-lg-4">
+            <p class="para-color text-center">Designed by Swathikrishna U S</p>
+          </div>
+          <div class="col-lg-4 footer-social-icons text-center">
+            <div class="d-flex footer-social-icons">
+              <a href="https://www.facebook.com/profile.php?id=100009595662450&mibextid=ZbWKwL"><i class="fa fa-facebook-f"></i></a>
+              <a href="https://www.instagram.com/swathikrishna_us/"><i class="fa fa-instagram"></i></a>
+              <a href="https://www.linkedin.com/in/swathi-krishna-8423401aa"><i class="fa fa-linkedin"></i></a>
+              <a href="https://github.com/swathikrishnaus"><i class="fa fa-github"></i></a>
+              <a href="https://www.behance.net/swathikrishnaus"><i class="fa fa-behance"></i></a>
+              <a href="https://dribbble.com/swathikrishnaus"><i class="fa fa-dribbble"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- -------------------------------footer end---------------------------------------------- -->
+
+
+
+
+
+
+
+
+    <script src="js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script> -->
+
+
+
+
+    <script src="js/script.js"></script>
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
